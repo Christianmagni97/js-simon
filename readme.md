@@ -7,3 +7,9 @@ Consigli del giorno:
 Pensate prima in italiano.
 Dividete in piccoli problemi la consegna.
 Individuate gli elementi di cui avete bisogno per realizzare il programma.
+
+faccio partire 5 numeri casuali con la formula math random,all'interno di una funzione che
+ha come proprietà quella di far scomparire dalla pagina i numeri.
+Dopodichè creo un altra funzione in cui, dopo 30 secondi compare una prompt in cui chiedo 
+all'utente i numeri casuali che ha visualizzato.
+
