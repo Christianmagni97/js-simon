@@ -2,9 +2,9 @@ let userSeconds = Number.parseInt(30);
 for (let index = 0; index < 5; index++) {
     const pcNumber = Math.floor (Math. random() * 100) + 1;
     console.log(pcNumber);
-    document.querySelector('h3').innerHTML + pcNumber;
-    
-
+    const pippo = document.createElement('h3');
+    pippo.append(pcNumber);
+    document.body.appendChild(pippo);
 }
 const timer = setInterval( function(){
     userSeconds--;  
