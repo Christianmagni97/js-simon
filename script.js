@@ -4,12 +4,12 @@ for (let index = 0; index < 5; index++) {
     console.log(pcNumber);
     const pippo = document.createElement('h3');
     pippo.append(pcNumber);
-    document.body.appendChild(pippo);
+    document.getElementById("quadrati").appendChild(pippo);
 }
 const timer = setInterval( function(){
     userSeconds--;  
     if( userSeconds <= 0){
         clearInterval(timer); 
-        prompt('Quali numeri sono usciti?');
+        prompt('Quali numeri sono usciti?'); 
     }
 }, 1000);
